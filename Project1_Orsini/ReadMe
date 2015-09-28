@@ -1,0 +1,161 @@
+Execute from terminal ./programOutput.out
+
+
+Expects file to be named fib.txt
+
+
+Output on Debian
+
+
+Open is 3
+PC = 00; IR = 00P022; [Load Pointer Immediate]
+PC = 01; IR = 00P123; [Load Pointer Immediate]
+PC = 02; IR = 00P224; [Load Pointer Immediate]
+PC = 03; IR = 030000; [Load Accumulator Immediate]
+PC = 04; IR = 06P0ZZ; [Store Accumulator Register Addressing]
+PC = 05; IR = 030001; [Load Accumulator Immediate]
+PC = 06; IR = 06P1ZZ; [Store Accumulator Register Addressing]
+PC = 07; IR = 030000; [Load Accumulator Immediate]
+PC = 08; IR = 15R0ZZ; [Load Register from Accumulator]
+PC = 09; IR = 04P0ZZ; [Load Accumulator Register Addressing]
+PC = 10; IR = 20P1ZZ; [Add Accumulator Register Addressing]
+PC = 11; IR = 15R1ZZ; [Load Register from Accumulator]
+PC = 12; IR = 08R1P2; [Store Register To Memory: Reg Addressing]
+PC = 13; IR = 01P001; [Add to Pointer Immediate]
+PC = 14; IR = 01P101; [Add to Pointer Immediate]
+PC = 15; IR = 01P201; [Add to Pointer Immediate]
+PC = 16; IR = 14R0ZZ; [Load Accumulator from Register]
+PC = 17; IR = 160001; [Add Accumulator Immediate]
+PC = 18; IR = 15R0ZZ; [Load Register from Accumulator]
+PC = 19; IR = 280010; [Compare Equal Immediate]
+PC = 20; IR = 3409ZZ; [Branch Conditional False]
+PC = 09; IR = 04P0ZZ; [Load Accumulator Register Addressing]
+PC = 10; IR = 20P1ZZ; [Add Accumulator Register Addressing]
+PC = 11; IR = 15R1ZZ; [Load Register from Accumulator]
+PC = 12; IR = 08R1P2; [Store Register To Memory: Reg Addressing]
+PC = 13; IR = 01P001; [Add to Pointer Immediate]
+PC = 14; IR = 01P101; [Add to Pointer Immediate]
+PC = 15; IR = 01P201; [Add to Pointer Immediate]
+PC = 16; IR = 14R0ZZ; [Load Accumulator from Register]
+PC = 17; IR = 160001; [Add Accumulator Immediate]
+PC = 18; IR = 15R0ZZ; [Load Register from Accumulator]
+PC = 19; IR = 280010; [Compare Equal Immediate]
+PC = 20; IR = 3409ZZ; [Branch Conditional False]
+PC = 09; IR = 04P0ZZ; [Load Accumulator Register Addressing]
+PC = 10; IR = 20P1ZZ; [Add Accumulator Register Addressing]
+PC = 11; IR = 15R1ZZ; [Load Register from Accumulator]
+PC = 12; IR = 08R1P2; [Store Register To Memory: Reg Addressing]
+PC = 13; IR = 01P001; [Add to Pointer Immediate]
+PC = 14; IR = 01P101; [Add to Pointer Immediate]
+PC = 15; IR = 01P201; [Add to Pointer Immediate]
+PC = 16; IR = 14R0ZZ; [Load Accumulator from Register]
+PC = 17; IR = 160001; [Add Accumulator Immediate]
+PC = 18; IR = 15R0ZZ; [Load Register from Accumulator]
+PC = 19; IR = 280010; [Compare Equal Immediate]
+PC = 20; IR = 3409ZZ; [Branch Conditional False]
+PC = 09; IR = 04P0ZZ; [Load Accumulator Register Addressing]
+PC = 10; IR = 20P1ZZ; [Add Accumulator Register Addressing]
+PC = 11; IR = 15R1ZZ; [Load Register from Accumulator]
+PC = 12; IR = 08R1P2; [Store Register To Memory: Reg Addressing]
+PC = 13; IR = 01P001; [Add to Pointer Immediate]
+PC = 14; IR = 01P101; [Add to Pointer Immediate]
+PC = 15; IR = 01P201; [Add to Pointer Immediate]
+PC = 16; IR = 14R0ZZ; [Load Accumulator from Register]
+PC = 17; IR = 160001; [Add Accumulator Immediate]
+PC = 18; IR = 15R0ZZ; [Load Register from Accumulator]
+PC = 19; IR = 280010; [Compare Equal Immediate]
+PC = 20; IR = 3409ZZ; [Branch Conditional False]
+PC = 09; IR = 04P0ZZ; [Load Accumulator Register Addressing]
+PC = 10; IR = 20P1ZZ; [Add Accumulator Register Addressing]
+PC = 11; IR = 15R1ZZ; [Load Register from Accumulator]
+PC = 12; IR = 08R1P2; [Store Register To Memory: Reg Addressing]
+PC = 13; IR = 01P001; [Add to Pointer Immediate]
+PC = 14; IR = 01P101; [Add to Pointer Immediate]
+PC = 15; IR = 01P201; [Add to Pointer Immediate]
+PC = 16; IR = 14R0ZZ; [Load Accumulator from Register]
+PC = 17; IR = 160001; [Add Accumulator Immediate]
+PC = 18; IR = 15R0ZZ; [Load Register from Accumulator]
+PC = 19; IR = 280010; [Compare Equal Immediate]
+PC = 20; IR = 3409ZZ; [Branch Conditional False]
+PC = 09; IR = 04P0ZZ; [Load Accumulator Register Addressing]
+PC = 10; IR = 20P1ZZ; [Add Accumulator Register Addressing]
+PC = 11; IR = 15R1ZZ; [Load Register from Accumulator]
+PC = 12; IR = 08R1P2; [Store Register To Memory: Reg Addressing]
+PC = 13; IR = 01P001; [Add to Pointer Immediate]
+PC = 14; IR = 01P101; [Add to Pointer Immediate]
+PC = 15; IR = 01P201; [Add to Pointer Immediate]
+PC = 16; IR = 14R0ZZ; [Load Accumulator from Register]
+PC = 17; IR = 160001; [Add Accumulator Immediate]
+PC = 18; IR = 15R0ZZ; [Load Register from Accumulator]
+PC = 19; IR = 280010; [Compare Equal Immediate]
+PC = 20; IR = 3409ZZ; [Branch Conditional False]
+PC = 09; IR = 04P0ZZ; [Load Accumulator Register Addressing]
+PC = 10; IR = 20P1ZZ; [Add Accumulator Register Addressing]
+PC = 11; IR = 15R1ZZ; [Load Register from Accumulator]
+PC = 12; IR = 08R1P2; [Store Register To Memory: Reg Addressing]
+PC = 13; IR = 01P001; [Add to Pointer Immediate]
+PC = 14; IR = 01P101; [Add to Pointer Immediate]
+PC = 15; IR = 01P201; [Add to Pointer Immediate]
+PC = 16; IR = 14R0ZZ; [Load Accumulator from Register]
+PC = 17; IR = 160001; [Add Accumulator Immediate]
+PC = 18; IR = 15R0ZZ; [Load Register from Accumulator]
+PC = 19; IR = 280010; [Compare Equal Immediate]
+PC = 20; IR = 3409ZZ; [Branch Conditional False]
+PC = 09; IR = 04P0ZZ; [Load Accumulator Register Addressing]
+PC = 10; IR = 20P1ZZ; [Add Accumulator Register Addressing]
+PC = 11; IR = 15R1ZZ; [Load Register from Accumulator]
+PC = 12; IR = 08R1P2; [Store Register To Memory: Reg Addressing]
+PC = 13; IR = 01P001; [Add to Pointer Immediate]
+PC = 14; IR = 01P101; [Add to Pointer Immediate]
+PC = 15; IR = 01P201; [Add to Pointer Immediate]
+PC = 16; IR = 14R0ZZ; [Load Accumulator from Register]
+PC = 17; IR = 160001; [Add Accumulator Immediate]
+PC = 18; IR = 15R0ZZ; [Load Register from Accumulator]
+PC = 19; IR = 280010; [Compare Equal Immediate]
+PC = 20; IR = 3409ZZ; [Branch Conditional False]
+PC = 09; IR = 04P0ZZ; [Load Accumulator Register Addressing]
+PC = 10; IR = 20P1ZZ; [Add Accumulator Register Addressing]
+PC = 11; IR = 15R1ZZ; [Load Register from Accumulator]
+PC = 12; IR = 08R1P2; [Store Register To Memory: Reg Addressing]
+PC = 13; IR = 01P001; [Add to Pointer Immediate]
+PC = 14; IR = 01P101; [Add to Pointer Immediate]
+PC = 15; IR = 01P201; [Add to Pointer Immediate]
+PC = 16; IR = 14R0ZZ; [Load Accumulator from Register]
+PC = 17; IR = 160001; [Add Accumulator Immediate]
+PC = 18; IR = 15R0ZZ; [Load Register from Accumulator]
+PC = 19; IR = 280010; [Compare Equal Immediate]
+PC = 20; IR = 3409ZZ; [Branch Conditional False]
+PC = 09; IR = 04P0ZZ; [Load Accumulator Register Addressing]
+PC = 10; IR = 20P1ZZ; [Add Accumulator Register Addressing]
+PC = 11; IR = 15R1ZZ; [Load Register from Accumulator]
+PC = 12; IR = 08R1P2; [Store Register To Memory: Reg Addressing]
+PC = 13; IR = 01P001; [Add to Pointer Immediate]
+PC = 14; IR = 01P101; [Add to Pointer Immediate]
+PC = 15; IR = 01P201; [Add to Pointer Immediate]
+PC = 16; IR = 14R0ZZ; [Load Accumulator from Register]
+PC = 17; IR = 160001; [Add Accumulator Immediate]
+PC = 18; IR = 15R0ZZ; [Load Register from Accumulator]
+PC = 19; IR = 280010; [Compare Equal Immediate]
+PC = 20; IR = 3409ZZ; [Branch Conditional False]
+PC = 21; IR = 99ZZZZ; [HALT]
+
+Final VM State
+CPU
+PC=21 SP= 0 ACC=  10 PSW=T IR=99ZZZZ
+
+REGISTERS
+P0=32   P1=33   P2=34   P3=0   
+R0=10   R1=89   R2=0    R3=0   
+
+
+MEMORY
+00P022 00P123 00P224 030000 06P0ZZ 030001 06P1ZZ 030000 15R0ZZ 04P0ZZ 
+20P1ZZ 15R1ZZ 08R1P2 01P001 01P101 01P201 14R0ZZ 160001 15R0ZZ 280010 
+3409ZZ 99ZZZZ ZZ0000 ZZ0001 ZZ0001 ZZ0002 ZZ0003 ZZ0005 ZZ0008 ZZ0013 
+ZZ0021 ZZ0034 ZZ0055 ZZ0089 XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX 
+XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX 
+XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX 
+XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX 
+XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX 
+XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX 
+XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX 
